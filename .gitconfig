@@ -1,44 +1,13 @@
 [user]
-	name = Diogo Silva
-	email = fsdiogo@gmail.com
+  name = Diogo Silva
+  email = fsdiogo@gmail.com
 
 [core]
-	excludesfile = /Users/diogo/.gitignore_global
-	pager = diff-so-fancy | less --tabs=4 -RF
+  excludesfile = ~/.gitignore_global
+  pager = diff-so-fancy | less --tabs=4 -RF
 
 [interactive]
-	diffFilter = diff-so-fancy --patch
-
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-
-[mergetool]
-	prompt = false
-
-[commit]
-	template = /Users/diogo/.stCommitMsg
+  diffFilter = diff-so-fancy --patch
 
 [pager]
-	branch = false
-
-[color]
-	ui = true
-
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
-
-[color "diff"]
-	meta = 11
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
+  branch = false

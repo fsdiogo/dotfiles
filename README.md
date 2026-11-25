@@ -1,6 +1,6 @@
 # dotfiles
 
-Dotfiles to setup macOS the way I like it.
+Dotfiles to set up macOS the way I like it.
 
 ## Homebrew
 
@@ -32,28 +32,15 @@ Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highli
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-Install [nvm](https://github.com/nvm-sh/nvm):
+Replace the [.zshrc](.zshrc) file and source it.
 
-```sh
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-```
+## Ghostty
 
-Replace the [.zshrc](.zshrc) file and source it. It will set some defaults, activate the `zsh plugins`, `nvm` and init the [Pure prompt](https://github.com/sindresorhus/pure).
+Download and install [Ghostty](https://ghostty.org/).
 
-## Git
+Replace the [.config](.config) folder to configure Ghostty, [starship](https://starship.rs/) and [lazygit](https://lazygit.dev/).
 
 Replace the [.gitconfig](.gitconfig) file. It will set some defaults and enable [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy).
-
-## iTerm
-
-Download and install [iTerm](https://iterm2.com/).
-
-Set the [Snazzy theme](https://github.com/sindresorhus/iterm2-snazzy) by opening the [Snazzy.itermcolors](iterm/Snazzy.itermcolors) in Finder.
-
-Go to `Settings > Profiles > Text`, change the Cursor to `_`, the Font to `Menlo` and set the size to `13`.
-
-The final result should be very similar to this:
-<img src="iterm/screenshot.png" />
 
 ## License
 
